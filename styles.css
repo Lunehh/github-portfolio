@@ -39,7 +39,6 @@ h2 {
 
 .project-media {
     max-width: 30%;
-    padding: 20px;
 }
 
 .project-media img {
@@ -78,27 +77,26 @@ footer {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    display: none;
 }
 
 #popup img {
-    max-width: 200px;
-    border-radius: 8px;
+   max-width: 200px; 
+   border-radius: 8px; 
 }
 
 .popup-caption {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    color: #d4bfff;
+   margin-top: 10px; 
+   font-size: 1.2rem; 
+   color: #d4bfff; 
 }
 
 #ascii-art {
-    text-align: center;
-    color: #d4bfff;
-    font-size: 1.5rem;
-    margin-top: 50px;
+   text-align: center; 
+   color: #d4bfff; 
+   font-size: 1.5rem; 
+   margin-top: 50px; 
 }
 
 .hidden {
-    display: none;
+   display:none; /* Keeps it hidden by default */
 }

@@ -92,6 +92,13 @@ footer {
     color: #d4bfff;
 }
 
+#ascii-art {
+    text-align: center;
+    color: #d4bfff;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
 .hidden {
     display: none;
 }

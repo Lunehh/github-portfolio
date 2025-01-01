@@ -36,8 +36,12 @@ h2 {
     max-width: 60%;
 }
 
+.project-media {
+    max-width: 35%;
+}
+
 .project-media img {
-    max-width: 300px;
+    max-width: 100%;
     border-radius: 8px;
 }
 

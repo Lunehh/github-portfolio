@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: #d4bfff;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.project-details {
+    max-width: 60%;
+}
+
+.project-media img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #151522;
+    color: #8e8eb7;
+}
+
+#easter-egg {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#easter-egg img {
+    width: 50px;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #151522;
+    border: 2px solid #d4bfff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+#popup img {
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.popup-caption {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #d4bfff;
+}
+
+.hidden {
+    display: none;
+}

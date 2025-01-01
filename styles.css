@@ -10,7 +10,7 @@ header {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Increased size for header */
 }
 
 h2 {
@@ -34,6 +34,14 @@ h2 {
     background-color: #2c2c44;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.project-details h3 {
+   font-size: 2rem; /* Increased size for project titles */
+}
+
+.project-details p {
+   font-size: 1.2rem; /* Increased size for project descriptions */
 }
 
 .project-media {
@@ -66,7 +74,7 @@ footer {
 }
 
 #easter-egg img {
-   width: 50px; /* Size of paw icon */
+   width: 50px; /* Size of paw icon (cat image) */
 }
 
 #popup {
@@ -95,7 +103,7 @@ footer {
 #ascii-art {
    text-align:center; /* Center ASCII art */
    color:#d4bfff; 
-   font-size:1.5rem; 
+   font-size:2rem; /* Increased font size for ASCII art */
 }
 
 .hidden {

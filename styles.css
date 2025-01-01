@@ -34,13 +34,12 @@ h2 {
 
 .project-details {
     max-width:600px; /* Set a max width for project details */
-    height:auto; /* Allow height to adjust if necessary */
-    padding-top :20px; /* Space above project details */
+    height :400px; /* Fixed height for uniformity */
     
 }
 
 .project-details {
-   padding-bottom :20px; /* Space below project details */
+   padding :20px; /* Space above and below project details */
    background-color:#2c2c44;
    border-radius :10px;
    box-shadow :0 4px 6px rgba(0, 0, 0, 0.3);
@@ -85,32 +84,31 @@ footer {
 }
 
 #popup {
-   position :fixed;
-   top :50%;
-   left :50%;
+   position :fixed; 
+   top :50%; 
+   left :50%; 
    transform :translate(-50%, -50%);
-   background-color:#151522;
-   border :2px solid #d4bfff;
-   border-radius :10px;
-   padding :20px;
-   text-align:center;
+   background-color:#151522; 
+   border :2px solid #d4bfff; 
+   border-radius :10px; 
+   padding :20px; 
+   text-align:center; 
 }
 
 #popup img {
-   max-width :200px;
-   border-radius :8px;
+   max-width :200px; 
+   border-radius :8px; 
 }
 
 .popup-caption {
-   margin-top :10px;
-   font-size :1.2rem;
-   color:#d4bfff;
+   margin-top :10px; 
+   font-size :1.2rem; 
+   color:#d4bfff; 
 }
 
-#ascii-art {
-   text-align:center; /* Center ASCII art text */
-   color:#d4bfff;
-   font-size :1rem; /* Font size for ASCII art at the end */
+/* Centering the GIF container */
+#gif-container {
+   text-align:center;
 }
 
 .hidden {

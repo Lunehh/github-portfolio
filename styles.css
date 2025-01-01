@@ -11,7 +11,8 @@ header {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -28,13 +29,12 @@ h2 {
     justify-content: space-between;
     margin: 40px 0;
     padding: 20px;
+    border: 1px solid #333;
     border-radius: 8px;
-    background-color: #2a2a42;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .project-details {
-    max-width: 60%;
+    max-width: 45%;
 }
 
 .project-media img {
@@ -47,12 +47,6 @@ footer {
     padding: 20px;
     background-color: #151522;
     color: #8e8eb7;
-}
-
-#ascii-art {
-    padding: 20px;
-    text-align: center;
-    font-family: monospace;
 }
 
 #easter-egg {

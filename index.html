@@ -6,19 +6,24 @@
     <meta name="description" content="Portfolio of a programmer passionate about learning and creating.">
     <meta name="keywords" content="portfolio, programmer, projects, coding, dark theme">
     <meta name="author" content="Luneh">
-    <title>My Portfolio</title>
+    <title>Luneh's Portfolio</title>
     <link rel="icon" type="image/png" href="lunehol6@28px.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Audio player for background music -->
+    <audio id="background-music" autoplay loop>
+        <source src="bgm.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi! I'm Luneh, a programmer passionate about creating projects and learning new skills. In my free time, I enjoy listening to music and playing video games. Although I may seem shy or reserved, I value meaningful connections and experiences. I'm currently seeking a job to gain professional experience and pursue my dreams.</p>
+        <h1>Luneh's Portfolio</h1>
+        <p>Welcome to my space where I showcase my projects, skills, and creativity.</p>
     </header>
 
     <section id="projects">
         <h2>My Projects</h2>
-        <!-- Project 1: Weather App -->
         <div class="project">
             <div class="project-details">
                 <h3>Weather App</h3>
@@ -29,7 +34,6 @@
                 <img src="weather-screenshot.png" alt="Weather App Screenshot">
             </div>
         </div>
-        <!-- Project 2: Calculator -->
         <div class="project">
             <div class="project-details">
                 <h3>Calculator</h3>
@@ -40,47 +44,14 @@
                 <img src="calculator-screenshot.png" alt="Calculator Screenshot">
             </div>
         </div>
-        <!-- Project 3: Job Board -->
-        <div class="project">
-            <div class="project-details">
-                <h3>Job Board</h3>
-                <p>Language: JavaScript, Node.js</p>
-                <p>Functionality: Allows users to browse and post job listings.</p>
-            </div>
-            <div class="project-media">
-                <img src="job-board-screenshot.png" alt="Job Board Screenshot">
-            </div>
-        </div>
-        <!-- Project 4: Personal Blog -->
-        <div class="project">
-            <div class="project-details">
-                <h3>Personal Blog</h3>
-                <p>Language: HTML, CSS, JavaScript</p>
-                <p>Functionality: A blog platform to share personal thoughts and experiences.</p>
-            </div>
-            <div class="project-media">
-                <img src="personal-blog-screenshot.png" alt="Personal Blog Screenshot">
-            </div>
-        </div>
-        <!-- Project 5: Task Manager -->
-        <div class="project">
-            <div class="project-details">
-                <h3>Task Manager</h3>
-                <p>Language: JavaScript, Node.js</p>
-                <p>Functionality: A task manager to keep track of tasks and deadlines.</p>
-            </div>
-            <div class="project-media">
-                <img src="task-manager-screenshot.png" alt="Task Manager Screenshot">
-            </div>
-        </div>
     </section>
 
-    <!-- Easter Egg Button (Paw Icon) -->
+    <!-- Easter egg button -->
     <button id="easter-egg">
-        <img src="Pawsie.png" alt="Paw Icon" />
+        <img src="Pawsie.png" alt="Paw Icon">
     </button>
 
-    <!-- Popup for Easter Egg -->
+    <!-- Popup for Theo -->
     <div id="popup" class="hidden">
         <img src="theo.jpg" alt="Theo" class="popup-image">
         <p class="popup-caption">Theo ❤️</p>
@@ -91,10 +62,5 @@
     </footer>
 
     <script src="script.js"></script>
-
-    <!-- Background Music -->
-    <audio autoplay loop>
-        <source src="bgm.mp3" type="audio/mp3">
-    </audio>
 </body>
 </html>

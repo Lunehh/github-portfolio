@@ -15,13 +15,12 @@ h1 {
 
 .intro-text {
    font-size: 1.5rem; /* Increased size for intro text */
-   text-align: left; /* Left-align intro text */
+   text-align:left; /* Left-align intro text */
    margin-bottom: 20px; /* Space below intro text */
 }
 
 h2 {
-    text-align: center;
-    margin: 30px 0 10px;
+    text-align:center; /* Center section header */
 }
 
 #projects {
@@ -29,83 +28,89 @@ h2 {
 }
 
 .project {
-    display: flex;
-    justify-content: center; /* Center project details */
-    margin-bottom: 30px; /* Space between projects */
+    display:flex;
+    justify-content:center; /* Center project details */
 }
 
 .project-details {
-    max-width: 600px; /* Set a max width for project details */
-    padding: 20px;
-    background-color: #2c2c44;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    max-width:600px; /* Set a max width for project details */
+    height:auto; /* Allow height to adjust if necessary */
+    padding-top :20px; /* Space above project details */
+    
+}
+
+.project-details {
+   padding-bottom :20px; /* Space below project details */
+   background-color:#2c2c44;
+   border-radius :10px;
+   box-shadow :0 4px 6px rgba(0, 0, 0, 0.3);
+   height :400px; /* Fixed height for uniformity */
 }
 
 .project-details h3 {
-   font-size: 2rem; /* Increased size for project titles */
+   font-size :2rem; /* Increased size for project titles */
 }
 
 .project-details p {
-   font-size: 1.2rem; /* Increased size for project descriptions */
+   font-size :1.2rem; /* Increased size for project descriptions */
 }
 
 .project-screenshot {
-   width: 100%; /* Make screenshot responsive */
-   border-radius: 8px; /* Rounded corners for screenshots */
-   margin-top: 10px; /* Space above screenshot */
+   width :100%; /* Make screenshot responsive */
+   border-radius :8px; /* Rounded corners for screenshots */
+   margin-top :10px; /* Space above screenshot */
 }
 
 footer {
-   position: relative; /* Ensure footer is positioned correctly */
-   text-align: center;
-   padding-top: 20px; /* Space above copyright */
-   padding-bottom: 20px; /* Space below copyright */
-   background-color: #151522; /* Match footer color */
-   color: #8e8eb7;
-   clear: both; /* Ensure it clears floated elements */
+   position :relative; /* Ensure footer is positioned correctly */
+   text-align:center;
+   padding-top :20px; /* Space above copyright */
+   padding-bottom :20px; /* Space below copyright */
+   background-color:#151522; /* Match footer color */
+   color:#8e8eb7;
+   clear :both; /* Ensure it clears floated elements */
 }
 
 #easter-egg {
-   position: fixed; /* Keep it fixed at bottom right */
-   bottom: 20px; /* Distance from bottom */
-   right: 20px; /* Distance from right */
-   background: none;
-   border: none;
-   cursor: pointer;
+   position :fixed; /* Keep it fixed at bottom right */
+   bottom :20px; /* Distance from bottom */
+   right :20px; /* Distance from right */
+   background:none;
+   border:none;
+   cursor:pointer;
 }
 
 #easter-egg img {
-   width: 50px; /* Size of paw icon (cat image) */
+   width :50px; /* Size of paw icon (cat image) */
 }
 
 #popup {
-   position: fixed; 
-   top: 50%; 
-   left: 50%; 
-   transform: translate(-50%, -50%);
-   background-color: #151522; 
-   border: 2px solid #d4bfff; 
-   border-radius: 10px; 
-   padding: 20px; 
-   text-align: center; 
+   position :fixed;
+   top :50%;
+   left :50%;
+   transform :translate(-50%, -50%);
+   background-color:#151522;
+   border :2px solid #d4bfff;
+   border-radius :10px;
+   padding :20px;
+   text-align:center;
 }
 
 #popup img {
-   max-width: 200px; 
-   border-radius: 8px; 
+   max-width :200px;
+   border-radius :8px;
 }
 
 .popup-caption {
-   margin-top: 10px; 
-   font-size: 1.2rem; 
-   color: #d4bfff; 
+   margin-top :10px;
+   font-size :1.2rem;
+   color:#d4bfff;
 }
 
 #ascii-art {
-   text-align:left; /* Left-align ASCII art text */
-   color:#d4bfff; 
-   font-size:2rem; /* Increased font size for ASCII art */
+   text-align:center; /* Center ASCII art text */
+   color:#d4bfff;
+   font-size :1rem; /* Font size for ASCII art at the end */
 }
 
 .hidden {

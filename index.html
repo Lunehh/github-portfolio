@@ -81,27 +81,12 @@
 
     </section>
 
-    <footer>
-        <p>&copy; 2025 Luneh. All rights reserved.</p>
-    </footer>
-
-    <!-- Easter Egg (Paw Image) -->
-    <button id="easter-egg">
-        <img src="Pawsie.png" alt="Paw Icon" />
-    </button>
-
-    <!-- Pop-up -->
-    <div id="popup" class="hidden">
-        <img src="theo.jpg" alt="Theo" class="popup-image">
-        <p class="popup-caption">Theo ❤️</p>
-    </div>
-
     <!-- ASCII Cat Art -->
-    <pre id="ascii-art">
+    <pre id="ascii-art" style="text-align:center;">
                 __
-            ／フ   フ
-           | .   .| 
-        ／` ミ__xノ
+             ／フ   フ
+           |       .   .| 
+        ／`ミ__xノ
        /　　 　 |
       /　 ヽ　　ﾉ
    │　　 | | |
@@ -110,11 +95,30 @@
 ＼二つ
     </pre>
 
+    <!-- Pop-up -->
+    <div id="popup" class="hidden">
+        <img src="theo.jpg" alt="Theo" class="popup-image">
+        <p class="popup-caption">Theo ❤️</p>
+    </div>
+
+    <!-- Easter Egg (Paw Image) -->
+    <button id="easter-egg">
+        <img src="Pawsie.png" alt="Paw Icon" />
+    </button>
+
+    <!-- Copyright Notice -->
+    <footer id="footer-notice">
+        <p>&copy; 2025 Luneh. All rights reserved.</p>
+    </footer>
+
     <!-- Background Music -->
-    <audio id="bgm" autoplay loop>
+    <audio id="bgm" autoplay loop muted controls>
         <source src="bgm.mp3" type="audio/mp3">
     </audio>
 
+    <!-- ASCII Cat Art -->
+    
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>

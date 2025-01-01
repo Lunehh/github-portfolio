@@ -1,8 +1,12 @@
 // Play music automatically when the page loads
 window.addEventListener("load", function() {
     const bgm = document.getElementById('bgm');
+    
+    // Attempt to play the audio
     bgm.play().catch(error => {
         console.log("Music failed to autoplay:", error);
+        // Optionally unmute or provide a button to play if needed
+        bgm.muted = false; // Uncomment if you want it to be unmuted on error
     });
  });
  

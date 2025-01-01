@@ -48,35 +48,37 @@ h2 {
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #151522;
-    color: #8e8eb7;
+   position: relative; /* Ensure footer is positioned correctly */
+   text-align: center;
+   padding-top: 20px; /* Space above copyright */
+   padding-bottom: 20px; /* Space below copyright */
+   background-color: #151522; /* Match footer color */
+   color: #8e8eb7;
 }
 
 #easter-egg {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: none;
-    border: none;
-    cursor: pointer;
+   position: fixed; /* Keep it fixed at bottom right */
+   bottom: 20px; /* Distance from bottom */
+   right: 20px; /* Distance from right */
+   background: none;
+   border: none;
+   cursor: pointer;
 }
 
 #easter-egg img {
-    width: 50px;
+   width: 50px; /* Size of paw icon */
 }
 
 #popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #151522;
-    border: 2px solid #d4bfff;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
+   position: fixed; 
+   top: 50%; 
+   left: 50%; 
+   transform: translate(-50%, -50%);
+   background-color: #151522; 
+   border: 2px solid #d4bfff; 
+   border-radius: 10px; 
+   padding: 20px; 
+   text-align: center; 
 }
 
 #popup img {
@@ -91,10 +93,10 @@ footer {
 }
 
 #ascii-art {
-   text-align: center; 
-   color: #d4bfff; 
-   font-size: 1.5rem; 
-   margin-top: 50px; 
+   text-align:center; /* Center ASCII art */
+   color:#d4bfff; 
+   font-size:1.5rem; 
+   margin-top:-10px; /* Adjust spacing if needed */
 }
 
 .hidden {

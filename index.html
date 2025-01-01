@@ -11,10 +11,38 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Background music autoplay -->
+    <audio id="bgm" autoplay loop>
+        <source src="bgm.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
     <header>
         <h1>Welcome to My Portfolio</h1>
-        <p>Hi! I'm Matías, a programmer passionate about creating projects and learning new skills. In my free time, I enjoy listening to music and playing video games. Although I may seem shy or reserved, I value meaningful connections and experiences. I'm currently seeking a job to gain professional experience and pursue my dreams.</p>
+        <p>Hi! I'm Luneh, a programmer passionate about creating projects and learning new skills. In my free time, I enjoy listening to music and playing video games. Although I may seem shy or reserved, I value meaningful connections and experiences. I'm currently seeking a job to gain professional experience and pursue my dreams.</p>
     </header>
+
+    <section id="ascii-art">
+        <pre>
+　　　　　   __
+　　　　 ／フ   フ
+　　　　|  .   .| 
+　 　　／`ミ__xノ
+　 　 /　　 　 |
+　　 /　 ヽ　　ﾉ
+ 　 │　　 | | |
+／￣|　　 | | |
+| (￣ヽ_ヽ)_)__)
+＼二つ
+        </pre>
+
+        <pre>
+  ／l、             
+（ﾟ､ ｡ ７         
+  l  ~ヽ       
+  じしf_,)ノ
+        </pre>
+    </section>
 
     <section id="projects">
         <h2>My Projects</h2>
@@ -23,15 +51,12 @@
                 <h3>Weather App</h3>
                 <p>Language: JavaScript</p>
                 <p>Functionality: Provides real-time weather updates based on user location.</p>
-                <audio controls>
-                    <source src="bgm.mp3" type="audio/mp3">
-                    Your browser does not support the audio element.
-                </audio>
             </div>
             <div class="project-media">
                 <img src="weather-screenshot.png" alt="Weather App Screenshot">
             </div>
         </div>
+
         <div class="project">
             <div class="project-details">
                 <h3>Calculator</h3>
@@ -42,18 +67,51 @@
                 <img src="calculator-screenshot.png" alt="Calculator Screenshot">
             </div>
         </div>
+
+        <div class="project">
+            <div class="project-details">
+                <h3>Task Management App</h3>
+                <p>Language: JavaScript, Node.js, MongoDB, React</p>
+                <p>Functionality: A task manager app with the ability to create, update, and delete tasks, set deadlines, and categorize them.</p>
+            </div>
+            <div class="project-media">
+                <img src="task-management-screenshot.png" alt="Task Management App Screenshot">
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-details">
+                <h3>E-commerce Website</h3>
+                <p>Language: React, Node.js, Stripe API</p>
+                <p>Functionality: A simple e-commerce website with a product catalog, shopping cart, and checkout process using Stripe.</p>
+            </div>
+            <div class="project-media">
+                <img src="ecommerce-screenshot.png" alt="E-commerce Website Screenshot">
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-details">
+                <h3>Real-Time Chat Application</h3>
+                <p>Language: JavaScript, Node.js, WebSockets (Socket.io), MongoDB</p>
+                <p>Functionality: A real-time chat application with message rooms and user authentication.</p>
+            </div>
+            <div class="project-media">
+                <img src="chat-app-screenshot.png" alt="Real-Time Chat Application Screenshot">
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Matías. All rights reserved.</p>
+        <p>&copy; 2025 Luneh. All rights reserved.</p>
     </footer>
 
     <button id="easter-egg">
-        <img src="Pawsie.png" alt="Paw Icon" />
+        <img src="paw-icon.png" alt="Paw Icon" />
     </button>
 
     <div id="popup" class="hidden">
-        <img src="theo.png" alt="Theo" class="popup-image">
+        <img src="theo.jpg" alt="Theo" class="popup-image">
         <p class="popup-caption">Theo ❤️</p>
     </div>
 

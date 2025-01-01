@@ -26,22 +26,19 @@ h2 {
 .project {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
-    padding: 10px;
-    border: 1px solid #333;
+    margin: 40px 0;
+    padding: 20px;
     border-radius: 8px;
+    background-color: #2a2a42;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .project-details {
     max-width: 60%;
 }
 
-.project-media {
-    max-width: 35%;
-}
-
 .project-media img {
-    max-width: 100%;
+    max-width: 300px;
     border-radius: 8px;
 }
 
@@ -50,6 +47,12 @@ footer {
     padding: 20px;
     background-color: #151522;
     color: #8e8eb7;
+}
+
+#ascii-art {
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
 }
 
 #easter-egg {

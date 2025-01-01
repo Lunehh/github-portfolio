@@ -7,7 +7,6 @@ body {
 
 header {
     padding: 20px;
-    text-align: center;
 }
 
 h1 {
@@ -54,6 +53,7 @@ footer {
    padding-bottom: 20px; /* Space below copyright */
    background-color: #151522; /* Match footer color */
    color: #8e8eb7;
+   clear: both; /* Ensure it clears floated elements */
 }
 
 #easter-egg {
@@ -96,7 +96,6 @@ footer {
    text-align:center; /* Center ASCII art */
    color:#d4bfff; 
    font-size:1.5rem; 
-   margin-top:-10px; /* Adjust spacing if needed */
 }
 
 .hidden {

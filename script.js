@@ -7,6 +7,7 @@ window.addEventListener("load", function() {
         console.log("Music failed to autoplay:", error);
         // Optionally unmute or provide a button to play if needed
         bgm.muted = false; // Uncomment if you want it to be unmuted on error
+        bgm.play(); // Retry playing after unmuting
     });
  });
  

@@ -84,8 +84,8 @@
     <!-- ASCII Cat Art -->
     <pre id="ascii-art" style="text-align:center;">
                 __
-             ／フ   フ
-           |       .   .| 
+           ／フ   フ
+          | .   .| 
         ／`ミ__xノ
        /　　 　 |
       /　 ヽ　　ﾉ
@@ -102,7 +102,7 @@
     </div>
 
     <!-- Easter Egg (Paw Image) -->
-    <button id="easter-egg">
+    <button id="easter-egg" title="Click for a surprise!">
         <img src="Pawsie.png" alt="Paw Icon" />
     </button>
 
@@ -112,12 +112,11 @@
     </footer>
 
     <!-- Background Music -->
-    <audio id="bgm" autoplay loop muted controls>
+    <!-- Removed controls to hide player; added autoplay and loop attributes -->
+    <audio id="bgm" autoplay loop muted controls style='display:none;'>
         <source src="bgm.mp3" type="audio/mp3">
     </audio>
 
-    <!-- ASCII Cat Art -->
-    
     <!-- JavaScript -->
     <script src="script.js"></script>
 </body>

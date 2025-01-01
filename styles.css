@@ -106,9 +106,10 @@ footer {
    color:#d4bfff; 
 }
 
-/* Centering the GIF container */
-#gif-container {
-   text-align:center;
+/* Centering the GIF container with a max width */
+#gif-container img {
+   max-width: 300px; /* Set max width for the GIF to make it smaller/medium size */
+   height: auto;
 }
 
 .hidden {

@@ -11,19 +11,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Audio player for background music -->
-    <audio id="background-music" autoplay loop>
-        <source src="bgm.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
-
     <header>
         <h1>Luneh's Portfolio</h1>
-        <p>Welcome to my space where I showcase my projects, skills, and creativity.</p>
+        <p>I'm Luneh, a programmer passionate about creating projects and learning new skills. In my free time, I enjoy listening to music and playing video games. Although I may seem shy or reserved, I value meaningful connections and experiences. I'm currently seeking a job to gain professional experience and pursue my dreams.</p>
     </header>
 
     <section id="projects">
         <h2>My Projects</h2>
+
         <div class="project">
             <div class="project-details">
                 <h3>Weather App</h3>
@@ -34,6 +29,7 @@
                 <img src="weather-screenshot.png" alt="Weather App Screenshot">
             </div>
         </div>
+
         <div class="project">
             <div class="project-details">
                 <h3>Calculator</h3>
@@ -44,22 +40,27 @@
                 <img src="calculator-screenshot.png" alt="Calculator Screenshot">
             </div>
         </div>
+
+        <!-- Add more projects here -->
     </section>
 
-    <!-- Easter egg button -->
+    <footer>
+        <p>&copy; 2025 Luneh. All rights reserved.</p>
+    </footer>
+
     <button id="easter-egg">
-        <img src="Pawsie.png" alt="Paw Icon">
+        <img src="Pawsie.png" alt="Paw Icon" />
     </button>
 
-    <!-- Popup for Theo -->
     <div id="popup" class="hidden">
         <img src="theo.jpg" alt="Theo" class="popup-image">
         <p class="popup-caption">Theo ❤️</p>
     </div>
 
-    <footer>
-        <p>&copy; 2025 Luneh. All rights reserved.</p>
-    </footer>
+    <!-- Background Music -->
+    <audio id="bgm" autoplay loop>
+        <source src="bgm.mp3" type="audio/mp3">
+    </audio>
 
     <script src="script.js"></script>
 </body>

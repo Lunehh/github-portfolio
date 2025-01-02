@@ -1,16 +1,16 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #1e1e2f;
-    color: #d4bfff;
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background-color: #1e1e2f;
+   color: #d4bfff;
 }
 
 header {
-    padding: 20px;
+   padding: 20px;
 }
 
 h1 {
-    font-size: 3rem; /* Increased size for header */
+   font-size: 3rem; /* Increased size for header */
 }
 
 .intro-text {
@@ -20,99 +20,95 @@ h1 {
 }
 
 h2 {
-    text-align:center; /* Center section header */
+   text-align:center; /* Center section header */
 }
 
 #projects {
-    padding: 20px;
+   padding: 20px;
 }
 
 .project {
-    display:flex;
-    justify-content:center; /* Center project details */
-    margin-bottom: 30px;
+   display:flex;
+   justify-content:center; /* Center project details */
+   margin-bottom: 40px; /* Increased space between projects */
 }
 
 .project-details {
-    max-width:600px; /* Set a max width for project details */
-    height :400px; /* Fixed height for uniformity */
-    
-}
-
-.project-details {
-   padding :20px; /* Space above and below project details */
-   background-color:#2c2c44;
-   border-radius :10px;
-   box-shadow :0 4px 6px rgba(0, 0, 0, 0.3);
-   height :400px; /* Fixed height for uniformity */
+   max-width: 600px; /* Set a max width for project details */
+   height: auto; /* Allow height to adjust based on content */
+   padding: 20px; /* Space above and below project details */
+   background-color: #2c2c44;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .project-details h3 {
-   font-size :2rem; /* Increased size for project titles */
+   font-size: 2rem; /* Increased size for project titles */
 }
 
 .project-details p {
-   font-size :1.2rem; /* Increased size for project descriptions */
+   font-size: 1.2rem; /* Increased size for project descriptions */
 }
 
 .project-screenshot {
-   width :100%; /* Make screenshot responsive */
-   border-radius :8px; /* Rounded corners for screenshots */
-   margin-top :10px; /* Space above screenshot */
+   width: 100%; /* Make screenshot responsive */
+   border-radius: 8px; /* Rounded corners for screenshots */
+   margin-top: 10px; /* Space above screenshot */
 }
 
 footer {
-   position :relative; /* Ensure footer is positioned correctly */
+   position: relative; /* Ensure footer is positioned correctly */
    text-align:center;
-   padding-top :20px; /* Space above copyright */
-   padding-bottom :20px; /* Space below copyright */
+   padding-top:20px; /* Space above copyright */
+   padding-bottom:20px; /* Space below copyright */
    background-color:#151522; /* Match footer color */
    color:#8e8eb7;
    clear :both; /* Ensure it clears floated elements */
 }
 
 #easter-egg {
-   position :fixed; /* Keep it fixed at bottom right */
-   bottom :20px; /* Distance from bottom */
-   right :20px; /* Distance from right */
-   background:none;
-   border:none;
-   cursor:pointer;
+  position :fixed; /* Keep it fixed at bottom right */
+  bottom :20px; /* Distance from bottom */
+  right :20px; /* Distance from right */
+  background:none;
+  border:none;
+  cursor:pointer;
 }
 
 #easter-egg img {
-   width :50px; /* Size of paw icon (cat image) */
+  width :50px; /* Size of paw icon (cat image) */
 }
 
 #popup {
-   position :fixed; 
-   top :50%; 
-   left :50%; 
-   transform :translate(-50%, -50%);
-   background-color:#151522; 
-   border :2px solid #d4bfff; 
-   border-radius :10px; 
-   padding :20px; 
-   text-align:center; 
+  position :fixed; 
+  top :50%; 
+  left :50%; 
+  transform :translate(-50%, -50%);
+  background-color:#151522; 
+  border :2px solid #d4bfff; 
+  border-radius :10px; 
+  padding :20px; 
+  text-align:center; 
 }
 
 #popup img {
-   max-width :200px; 
-   border-radius :8px; 
+  max-width :200px; 
+  border-radius :8px; 
 }
 
 .popup-caption {
-   margin-top :10px; 
-   font-size :1.2rem; 
-   color:#d4bfff; 
+  margin-top :10px; 
+  font-size :1.2rem; 
+  color:#d4bfff; 
 }
 
 /* Centering the GIF container with a max width */
 #gif-container img {
-   max-width: 300px; /* Set max width for the GIF to make it smaller/medium size */
-   height: auto;
+  max-width: 300px; /* Set max width for the GIF to make it smaller/medium size */
+  height: auto;
 }
 
 .hidden {
-   display:none; /* Keeps it hidden by default */
+  display:none; /* Keeps it hidden by default */
 }
+

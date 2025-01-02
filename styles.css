@@ -30,6 +30,7 @@ h2 {
 .project {
     display:flex;
     justify-content:center; /* Center project details */
+    margin-bottom: 30px;
 }
 
 .project-details {

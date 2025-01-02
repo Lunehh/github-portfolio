@@ -50,8 +50,11 @@ h2 {
    font-size: 1.2rem; /* Increased size for project descriptions */
 }
 
+/* Adjusted size for project screenshots */
 .project-screenshot {
-   width: 100%; /* Make screenshot responsive */
+   max-width: 100%; /* Make screenshot responsive */
+   height: auto; /* Maintain aspect ratio */
+   max-height: 200px; /* Set a maximum height to control image size */
    border-radius: 8px; /* Rounded corners for screenshots */
    margin-top: 10px; /* Space above screenshot */
 }
@@ -111,4 +114,3 @@ footer {
 .hidden {
   display:none; /* Keeps it hidden by default */
 }
-

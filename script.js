@@ -4,8 +4,11 @@ document.getElementById('easter-egg').addEventListener('click', () => {
     popup.classList.toggle('hidden');
 });
 
-// Make the ASCII art center on page load
+// Make the ASCII art center on page load (if applicable)
 window.onload = function() {
     const asciiArt = document.getElementById('ascii-art');
-    asciiArt.style.whiteSpace = 'pre-wrap'; // Ensures it formats correctly
+    
+    if (asciiArt) { // Check if ASCII art exists
+        asciiArt.style.whiteSpace = 'pre-wrap'; // Ensures it formats correctly
+    }
 };
